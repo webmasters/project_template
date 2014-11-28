@@ -1,46 +1,26 @@
-/* ---------------- CSS-Reset ------------------- */
+@charset "utf-8";
 
-html,
-body,
-a,
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-span,
-p,
-img,
-strong,
-ul,
-li,
-table,
-th,
-td,
-tr {
+/* ---------------- CSS-Reset ------------------- */
+html, body, a, div, h1, h2, h3, h4, h5, h6, span, p, img, strong, ul, li, table, th, td, tr {
+    border: 0px none;
+    font-family: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: normal;
     margin: 0px;
     padding: 0px;
-    border: 0px none;
-    font-weight: normal;
-    font-style: inherit;
-    font-family: inherit;
-    font-variant: inherit;
-    text-decoration: none;
     table-layout: inherit;
-}
+    text-decoration: none;
+} 
+
 /* ---------------- Body / HTML ------------------- */
 
 html,
 body {
-    font-family: Verdana, Helvetica, Arial;
+    background-color: white;
+    color: black;
+    font-family: 'Lucida Grande', Helvetica, Arial, sans-serif, Verdana;
     font-size: 13px;
     font-weight: normal;
-    color: black;
-    text-decoration: none;
-    background-color: white;
-    margin: auto;
-    width: 426px;
-    padding-top: 10px;
 }
+
